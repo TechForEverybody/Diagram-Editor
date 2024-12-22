@@ -1,0 +1,11 @@
+input CreateUserInput {
+    email: String!
+    firstName: String!
+    lastName: String!
+    password: String!
+}
+mutation CreateUser($data: CreateUserInput!) {
+    createUser(data: $data) {
+        email
+    }
+}
