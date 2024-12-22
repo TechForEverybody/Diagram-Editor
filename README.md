@@ -1,26 +1,6 @@
-# React + TypeScript + Vite + ShaCDN + MaterialUI + tailwindCSS Template
+# Flow Diagram Editor
 
 ## Created By: SHIVKUMAR CHAUHAN
-
-### Important libraries included
-
-1. syncfusion
-2. mui
-3. sha-cdn
-4. tailwindcss
-5. apex-chart/tree/sankey
-6. mui-icons
-7. lucide-icons
-8. date-fns
-9. framer-motion
-10. react-chrono
-11. react-lineto
-12. react-toastify
-13. resium and cesium
-14. lottiefiles/dotlottie-react
-15. react-three/fiber
-16. use-gesture/react
-17. prettier
 
 ## scripts
 
