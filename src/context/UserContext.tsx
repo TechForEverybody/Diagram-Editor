@@ -122,11 +122,10 @@ export default function UserContextProvider(props: {
             changeUser({ type: 'login', value: { userData: local } })
         } else {
             changeUser({ type: 'logout', value: { userData: null } })
-            window.location.href = '/'
+            // window.location.href = '/'
         }
     }
     useEffect(() => {
-        // console.log(window.location.href)
         if (MainConfigs.NODE_ENVIRONMENT === 'development') {
             changeUser({
                 type: 'login',
